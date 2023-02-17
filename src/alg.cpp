@@ -2,10 +2,6 @@
 
 int gcd(int a, int b) {
     int del;
-    if(a = b){
-        cout << a << endl;
-        return 1;
-    }
     if(a > b) 
         del = b;
     else 
