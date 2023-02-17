@@ -2,15 +2,15 @@
 
 int gcd(int a, int b) {
     int del;
-    if(a=b){
+    if(a = b){
         cout << a << endl;
         return 1;
     }
-    if(a>b) 
+    if(a > b) 
         del = b;
     else 
         del = a;
-    while(a%del==0 && b%del==0)
+    while(a%del == 0 && b%del == 0)
         del--;
     return del;
 }
