@@ -2,12 +2,15 @@
 
 int gcd(int a, int b) {
     int del;
-    if(a > b) 
+    if(a > b) { 
         del = b;
-    else 
+    }
+    else { 
         del = a;
-    while(a%del == 0 && b%del == 0)
+    }
+    while(a % del == 0 && b % del == 0) {
         del--;
+    }
     return del;
 }
 
